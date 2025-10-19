@@ -7,3 +7,18 @@
 
 // While value assigned in a non primitve datatype gets stored in heap Such that when a chnage is made in the value 
 // it chnages it from the main source 
+
+//for example :
+
+let name="RAJ"
+let name1 = name
+name="pushpa"
+console.log(name)
+console.log(name1)
+
+
+let dict = {name:"Apurv",class:"enggg",age:21}
+let dict2=dict
+dict.name="Sahil"
+console.log(dict.name)
+console.log(dict2.name)
