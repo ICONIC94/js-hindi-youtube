@@ -5,5 +5,5 @@
 // Reference type ( Non-primitve):
    // Array , Objects , Functions 
 
-// type of of all reference type , null is "object"
+// type of of all reference type and  null is "object"
 
