@@ -1,0 +1,31 @@
+//singleton
+//object.create
+
+//object literals
+
+const obj1={
+    name:"Apurv",
+    class:12,
+    location: "Lucknow",
+    email:"apurvshukla944@gmail.com",
+    isLoggedIn: false,
+    LastloginDays:["Monday","tuesday"]
+
+}
+
+// console.log(obj1["class"]) // This way is better than . way
+// console.log(obj1.class)
+
+// Object.freeze(obj1) // it freezes the object hence you cant make anymore changes...
+
+obj1.class=13
+// console.log(obj1);// still prints class as 12
+
+obj1.relation= function(){
+    console.log("mom");
+}
+obj1.relation2= function(){
+    console.log(`the relation of user with admin is, ${this.name}`);
+}
+console.log(obj1.relation());
+console.log(obj1.relation2());
