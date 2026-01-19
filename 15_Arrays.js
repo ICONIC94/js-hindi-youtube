@@ -1,4 +1,5 @@
 const fruits=["apple","orange","banana"]
+
 const veggi=["cucumber","lauki","potato"]
 const junkk= ["momos","paratha","chole"]
 
